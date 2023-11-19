@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  
+    
+    background:linear-gradient(pink,red);
+   
+   
+}
+#container{
+    text-align: center;
+    padding: 50px;
+  
+    background-color: white;
+    
+    border: 3px solid  black;
+   
+}
+
+input{
+width: 200px;
+margin: 10px 0px ;
+padding: 10px;
+}
+h1{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    
+}
+#submit{
+    background-color: crimson;
+    width: 220px;
+   color: white;
+    cursor: pointer;
+    border:1px solid black;
+   
+}
+.error{
+    color: red;
+    margin: 0;
+    text-align: left;
+}
